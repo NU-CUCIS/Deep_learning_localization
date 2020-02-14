@@ -1,7 +1,7 @@
 # Deep learning for localization of two phase high contrast three-dimensional material 
 This software is an deep learning application for modeling processing-structure-property (PSP) linkages for two phase high contrast three-dimensional material. It’s a feature-engineering-free framework, which directly takes raw data as input, trains a convolutional neural network (CNN) and outputs output. 
 
-To use this software, what the algorithm requires as input are a numpy array. The shape of this numpy array is (x, 11, 11, 11) where x is the number of focal voxels and the dimension of microstructure centered at focal voxels should be three-dimensional (i.e. 11*11*11). The CNN will establish the PSP linkages in the materials system and predict its local strain.
+To use this software, what the algorithm requires as input are a numpy array. The shape of this numpy array is (x, 11, 11, 11) where x is the number of focal voxels and the dimension of microstructure centered at focal voxels should be three-dimensional (i.e. 11x11x11). The CNN will establish the PSP linkages in the materials system and predict its local strain.
 
 ## Requirements ##
 Python 2.7
@@ -28,9 +28,9 @@ Scipy
 This work is supported in part by the following grants: AFOSR award FA9550-12-1-0458; NIST award 70NANB14H012; NSF award CCF-1409601; DOE awards DESC0007456, DE-SC0014330; and Northwestern Data Science Initiative.
 
 ## Related Publications ##
-1. Z. Yang, Y. Yabansu, R. Al-Bahrani, W. Liao, A. Choudhary, S. Kalidindi, A. Agrawal, "Establishing structure-property localization linkages for slastic deformation of three-dimensional high contrast composites using deep learning approaches", (Under Review).
+Z. Yang, Y. C. Yabansu, D. Jha, W.-keng Liao, A. N. Choudhary, S. R. Kalidindi, and A. Agrawal, “Establishing structure-property localization linkages for elastic deformation of three-dimensional high contrast composites using deep learning approaches,” Acta Materialia, vol. 166, pp. 335–345, 2019.
 
 ## Contact
-Zijiang Yang (zijiangyang2016@u.northwestern.edu)
-Ankit Agrawal (ankitag@eecs.northwestern.edu)
-Alok Choudhary (choudhar@eecs.northwestern.edu)
+Zijiang Yang (zyz293@ece.northwestern.edu)
+Ankit Agrawal (ankitag@ece.northwestern.edu)
+Alok Choudhary (choudhar@ece.northwestern.edu)
