@@ -4,13 +4,13 @@ This software is an deep learning application for modeling processing-structure-
 To use this software, what the algorithm requires as input are a numpy array. The shape of this numpy array is (x, 11, 11, 11) where x is the number of focal voxels and the dimension of microstructure centered at focal voxels should be three-dimensional (i.e. 11x11x11). The CNN will establish the PSP linkages in the materials system and predict its local strain.
 
 ## Requirements ##
-Python 2.7;
-Numpy 1.12.1 (or higher);
-Sklearn 0.19.1 (or higher);
-Keras 2.0.0 (or higher);
-Pickle;
-TensorFlow;
-Scipy;
+Python 3.6.3;
+Numpy 1.18.1;
+Sklearn 0.20.0;
+Keras 2.3.1;
+Pickle 4.0;
+TensorFlow 2.1.0;
+h5py 2.9.0;
 
 ## Files ##
 1. contrast10_localization.py: The script to train CNN for contrast 10 dataset and its architecture is presented in the paper in the related publication section.
