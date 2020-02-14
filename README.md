@@ -4,13 +4,13 @@ This software is an deep learning application for modeling processing-structure-
 To use this software, what the algorithm requires as input are a numpy array. The shape of this numpy array is (x, 11, 11, 11) where x is the number of focal voxels and the dimension of microstructure centered at focal voxels should be three-dimensional (i.e. 11x11x11). The CNN will establish the PSP linkages in the materials system and predict its local strain.
 
 ## Requirements ##
-Python 2.7
-Numpy 1.12.1 (or higher)
-Sklearn 0.19.1 (or higher)
-Keras 2.0.0 (or higher)
-Pickle
-TensorFlow
-Scipy
+Python 2.7;
+Numpy 1.12.1 (or higher);
+Sklearn 0.19.1 (or higher);
+Keras 2.0.0 (or higher);
+Pickle;
+TensorFlow;
+Scipy;
 
 ## Files ##
 1. contrast10_localization.py: The script to train CNN for contrast 10 dataset and its architecture is presented in the paper in the related publication section.
@@ -31,6 +31,6 @@ This work is supported in part by the following grants: AFOSR award FA9550-12-1-
 Z. Yang, Y. C. Yabansu, D. Jha, W.-keng Liao, A. N. Choudhary, S. R. Kalidindi, and A. Agrawal, “Establishing structure-property localization linkages for elastic deformation of three-dimensional high contrast composites using deep learning approaches,” Acta Materialia, vol. 166, pp. 335–345, 2019.
 
 ## Contact
-Zijiang Yang (zyz293@ece.northwestern.edu)
-Ankit Agrawal (ankitag@ece.northwestern.edu)
-Alok Choudhary (choudhar@ece.northwestern.edu)
+Zijiang Yang (zyz293@ece.northwestern.edu);
+Ankit Agrawal (ankitag@ece.northwestern.edu);
+Alok Choudhary (choudhar@ece.northwestern.edu);
