@@ -15,6 +15,8 @@ Scipy;
 ## Files ##
 1. contrast10_localization.py: The script to train CNN for contrast 10 dataset and its architecture is presented in the paper in the related publication section.
 2. contrast50_localization.py: The script to train CNN for contrast 50 dataset and its architecture is presented in the paper in the related publication section.
+3. sample_data.pkl: Example data for contrast10 dataset, including 10 21x21x21 3D microstructure.
+4. sample_data50.pkl: Example data for contrast50 dataset, including 10 21x21x21 3D microstructure.
 
 ## How to run it
 1. To run contrast10_localization.py: 
