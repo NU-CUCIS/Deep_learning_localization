@@ -1,5 +1,5 @@
 # Deep learning for localization of two phase high contrast three-dimensional material 
-This software is an deep learning application for modeling processing-structure-property (PSP) linkages for two phase high contrast three-dimensional material. It’s a feature-engineering-free framework, which directly takes raw data as input, and trains a convolutional neural network (CNN). 
+LocalCNN is an deep learning application for modeling localization linkages for two phase high contrast three-dimensional material. It’s a feature-engineering-free framework, which directly takes raw data as input, and trains a convolutional neural network (CNN). 
 
 To use this software, what the algorithm requires as input are a numpy array. The shape of this numpy array is (x, 11, 11, 11) where x is the number of focal voxels and the dimension of microstructure centered at focal voxels should be three-dimensional (i.e. 11x11x11). The software will take the row data as input, and train the predictive model. The detailed drscription about data preprocessing and model can be found in the published paper given below.
 
